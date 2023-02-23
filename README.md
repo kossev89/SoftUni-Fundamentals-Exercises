@@ -118,6 +118,10 @@ Output
 Print the students who are from the given city in the following format: "{firstName} {lastName} is {age}
 years old."
 
+2.5 Students 2.0
+Use the class from the previous problem. If you receive a student, which already exists (first name and last name
+should be unique) overwrite the information.
+
 
 
 
