@@ -81,6 +81,44 @@ When a customer has enough money to buy the selected product, print "Purchased {
 When the "End" command is given print the reminding balance, formatted to the second decimal point: "Change: {money left}".
 
 
+2. Lab: Objects and Classes
+Problems for in-class lab for the "C# Fundamentals" course @ SoftUni
+
+2.1 Randomize Words
+You will be given a string that will contain words separated by a single space. Randomize their order and print each
+word on a new line
+
+2.2 Big Factorial
+You will receive a number N in the range [0…1000]. Calculate the Factorial of N and print out the result.
+
+II. Defining Simple Classes
+2.3 Songs
+Define a class called Song that will hold the following information about some songs:
+• Type List
+• Name
+• Time
+Input / Constraints
+• On the first line, you will receive the number of songs - N.
+• On the next N lines, you will be receiving data in the following format: "{typeList}_{name}_{time}".
+• On the last line, you will receive Type List or "all".
+Output
+If you receive Type List as an input on the last line, print out only the names of the songs, which are from that Type
+List. If you receive the "all" command, print out the names of all the songs.
+
+2.4  Students
+Define a class called Student, which will hold the following information about some students:
+• first name
+• last name
+• age
+• home town
+Input / Constraints
+Read information about some students, until you receive the "end" command. After that, you will receive a city
+name.
+Output
+Print the students who are from the given city in the following format: "{firstName} {lastName} is {age}
+years old."
+
+
 
 
 
