@@ -8,9 +8,32 @@ while (information != "end")
     string lastName = studentInfo[1];
     int age = int.Parse(studentInfo[2]);
     string town = studentInfo[3];
+    bool studentAlreadyExists = false;
+    int studentOverwriteIndex = -1;
 
-    var student = new Student { firstName = firstName, lastName = lastName, age = age, homeTown = town };
-    students.Add(student);
+    for (int i = 0; i <= students.Count - 1; i++)
+    {
+        if (students[i].firstName == firstName && students[i].lastName == lastName)
+        {
+            studentAlreadyExists = true;
+            studentOverwriteIndex = i;
+            break;
+        }
+        else
+        {
+
+        }
+    }
+    if (studentAlreadyExists)
+    {
+        students[studentOverwriteIndex].age = age;
+        students[studentOverwriteIndex].homeTown = town;
+    }
+    else
+    {
+        var student = new Student { firstName = firstName, lastName = lastName, age = age, homeTown = town };
+        students.Add(student);
+    }
     information = Console.ReadLine();
 }
 
