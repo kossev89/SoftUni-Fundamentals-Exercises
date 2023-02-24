@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Songs", "03. Songs\03. 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Students", "04. Students\04. Students.csproj", "{296634FC-B402-44F6-86F4-1B8CF3DBB79C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Students 2.0", "05. Students 2.0\05. Students 2.0.csproj", "{7B603142-414F-4AC5-8E89-85ADA6C80259}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Students 2.0", "05. Students 2.0\05. Students 2.0.csproj", "{7B603142-414F-4AC5-8E89-85ADA6C80259}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Store Boxes", "06. Store Boxes\06. Store Boxes.csproj", "{9AF16CBF-4AEA-48FF-8828-DDBA3E66FA75}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7B603142-414F-4AC5-8E89-85ADA6C80259}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7B603142-414F-4AC5-8E89-85ADA6C80259}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7B603142-414F-4AC5-8E89-85ADA6C80259}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AF16CBF-4AEA-48FF-8828-DDBA3E66FA75}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AF16CBF-4AEA-48FF-8828-DDBA3E66FA75}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AF16CBF-4AEA-48FF-8828-DDBA3E66FA75}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AF16CBF-4AEA-48FF-8828-DDBA3E66FA75}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
