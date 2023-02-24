@@ -5,7 +5,7 @@ List<Truck> trucks = new List<Truck>();
 while (input != "end")
 {
     string[] inputArray = input
-        .Split('/')
+        .Split('/',StringSplitOptions.RemoveEmptyEntries)
         .ToArray();
     string vehicleType = inputArray[0];
     string vehicleBrand = inputArray[1];
