@@ -183,6 +183,18 @@ Change the program from the previous problem in such a way, that you will be abl
 You will not need to use the previous methods anymore (except the "ToString()"). On the first line, you will receive the number of articles. 
 On the next lines, you will receive the articles in the same format as in the previous problem: "{title}, {content}, {author}". Print the articles. 
 
+3.4 Students
+Create a program that sorts some students by their grade in descending order. Each student should have:
+•	First name (String)
+•	Last name (String)
+•	Grade (a floating-point number)
+Input
+•	On the first line, you will receive a number n - the count of all students.
+•	On the next n lines, you will be receiving information about these students in the following format: "{first name} {second name} {grade}".
+Output
+•	Print out the information about each student in the following format: "{first name} {second name}: {grade}".
+
+
 
 
 
