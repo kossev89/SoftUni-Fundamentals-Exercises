@@ -170,18 +170,18 @@ The class should have a constructor and the following methods:
 •	Rename (new title) – change the title of the article
 •	Override the ToString method – print the article in the following format: 
 "{title} - {content}: {author}"
-Create a program that reads an article in the following format "{title}, {content}, {author}". On the next line, you will receive a number n, representing the number of commands, which will follow after it. On the next n lines, you will be receiving the following commands: 
+Create a program that reads an article in the following format "{title}, {content}, {author}". 
+On the next line, you will receive a number n, representing the number of commands, which will follow after it. 
+On the next n lines, you will be receiving the following commands: 
 •	"Edit: {new content}"
 •	"ChangeAuthor: {new author}"
 •	"Rename: {new title}"
 In the end, print the final state of the article.
 
-
-
-
-
-
-
+3.3  Articles 2.0
+Change the program from the previous problem in such a way, that you will be able to store a list of articles. 
+You will not need to use the previous methods anymore (except the "ToString()"). On the first line, you will receive the number of articles. 
+On the next lines, you will receive the articles in the same format as in the previous problem: "{title}, {content}, {author}". Print the articles. 
 
 
 
