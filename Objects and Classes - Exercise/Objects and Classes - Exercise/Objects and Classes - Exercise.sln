@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Advertisement Message", "01. Advertisement Message\01. Advertisement Message.csproj", "{1F2D3C26-7E10-4D7D-B268-7D1CD25024F2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Advertisement Message", "01. Advertisement Message\01. Advertisement Message.csproj", "{1F2D3C26-7E10-4D7D-B268-7D1CD25024F2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Articles", "02. Articles\02. Articles.csproj", "{F41C7B5B-F39F-4720-AC19-14EE7EC8223F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Articles", "02. Articles\02. Articles.csproj", "{F41C7B5B-F39F-4720-AC19-14EE7EC8223F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Articles 2.0", "03. Articles 2.0\03. Articles 2.0.csproj", "{735AF9A7-9F5C-4F04-A752-273BCAE70876}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Articles 2.0", "03. Articles 2.0\03. Articles 2.0.csproj", "{735AF9A7-9F5C-4F04-A752-273BCAE70876}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Students", "04. Students\04. Students.csproj", "{597880C5-1BC8-40D9-A9C3-34561169ED30}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Students", "04. Students\04. Students.csproj", "{597880C5-1BC8-40D9-A9C3-34561169ED30}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Teamwork Project", "05. Teamwork Project\05. Teamwork Project.csproj", "{443AD48F-6126-4937-9210-ECCEDFF3C52F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "05. Teamwork Project", "05. Teamwork Project\05. Teamwork Project.csproj", "{443AD48F-6126-4937-9210-ECCEDFF3C52F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Vehicle Catal", "06. Vehicle Catal\06. Vehicle Catal.csproj", "{D9BE3E10-5E46-4D58-AD63-6099CF4C283D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{443AD48F-6126-4937-9210-ECCEDFF3C52F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{443AD48F-6126-4937-9210-ECCEDFF3C52F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{443AD48F-6126-4937-9210-ECCEDFF3C52F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BE3E10-5E46-4D58-AD63-6099CF4C283D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BE3E10-5E46-4D58-AD63-6099CF4C283D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BE3E10-5E46-4D58-AD63-6099CF4C283D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BE3E10-5E46-4D58-AD63-6099CF4C283D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,14 +3,14 @@
 int teamsCount = int.Parse(Console.ReadLine());
 List<Team> teams = new List<Team>();
 
-for (int i = 0; i < teamsCount;i++)
+for (int i = 0; i < teamsCount; i++)
 {
     string[] createTeam = Console.ReadLine()
         .Split('-', StringSplitOptions.RemoveEmptyEntries)
         .ToArray();
     string creator = createTeam[0];
     string teamName = createTeam[1];
-    List<string> members = new List<string>();
+
     if (teams.Select(x => x.Name).Contains(teamName))
     {
         Console.WriteLine($"Team {teamName} was already created!");
@@ -25,6 +25,7 @@ for (int i = 0; i < teamsCount;i++)
     Team.TeamCreated(creator, teamName);
     teams.Add(team);
 }
+
 string assignment = Console.ReadLine();
 
 while (assignment != "end of assignment")
@@ -52,7 +53,6 @@ while (assignment != "end of assignment")
 }
 
 var orderedList = teams.OrderByDescending(x => x.Members.Count).ThenBy(x => x.Name).ToList();
-
 List<Team> disbandedTeams = teams
     .Where(x => x.Members.Count == 0)
     .OrderBy(x => x.Name)
