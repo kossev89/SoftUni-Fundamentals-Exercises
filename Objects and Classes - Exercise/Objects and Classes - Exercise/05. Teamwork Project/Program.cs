@@ -10,22 +10,23 @@ for (int i = 0; i < teamsCount; i++)
         .ToArray();
     string creator = createTeam[0];
     string teamName = createTeam[1];
-
     if (teams.Select(x => x.Name).Contains(teamName))
     {
         Console.WriteLine($"Team {teamName} was already created!");
         continue;
     }
-    if (teams.Select(x => x.Creator).Contains(creator))
+    else if (teams.Select(x => x.Creator).Contains(creator))
     {
         Console.WriteLine($"{creator} cannot create another team!");
         continue;
     }
-    Team team = new Team(creator, teamName);
-    Team.TeamCreated(creator, teamName);
-    teams.Add(team);
+    else
+    {
+        Team team = new Team(creator, teamName);
+        Team.TeamCreated(creator, teamName);
+        teams.Add(team);
+    }  
 }
-
 string assignment = Console.ReadLine();
 
 while (assignment != "end of assignment")
@@ -42,21 +43,22 @@ while (assignment != "end of assignment")
         assignment = Console.ReadLine();
         continue;
     }
-    if (teams.SelectMany(x => x.Members).Contains(user) || teams.Select(x => x.Creator).Contains(user))
+    else if (teams.SelectMany(x => x.Members).Contains(user) || teams.Select(x => x.Creator).Contains(user))
     {
         Console.WriteLine($"Member {user} cannot join team {team}!");
         assignment = Console.ReadLine();
         continue;
     }
-    teamToJoin.AddUser(user);
-    assignment = Console.ReadLine();
+    else
+    {
+        teamToJoin.AddUser(user);
+        assignment = Console.ReadLine();
+    }
 }
 
 var orderedList = teams.OrderByDescending(x => x.Members.Count).ThenBy(x => x.Name).ToList();
-List<Team> disbandedTeams = teams
-    .Where(x => x.Members.Count == 0)
-    .OrderBy(x => x.Name)
-    .ToList();
+
+List<Team> disbandedTeams = new List<Team>();
 
 foreach (var team1 in orderedList)
 {
@@ -68,6 +70,10 @@ foreach (var team1 in orderedList)
         {
             Console.WriteLine($"-- {member}");
         }
+    }
+    else
+    {
+        disbandedTeams.Add(team1);
     }
 }
 Console.WriteLine("Teams to disband:");
@@ -86,14 +92,13 @@ class Team
     public string Name { get; set; }
     public string Creator { get; set; }
     public List<string> Members { get; set; } = new List<string>();
-
     internal void AddUser(string user)
     {
         Members.Add(user);
     }
-
     internal static void TeamCreated(string creator, string teamName)
     {
         Console.WriteLine($"Team {teamName} has been created by {creator}!");
     }
 }
+;
