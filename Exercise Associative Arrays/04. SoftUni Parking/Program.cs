@@ -34,6 +34,7 @@ for (int i = 0; i < numberOfCommands; i++)
         }
     }
 }
+
 foreach (var user in keyValuePairs)
 {
     Console.WriteLine($"{user.Key} => {user.Value}");
