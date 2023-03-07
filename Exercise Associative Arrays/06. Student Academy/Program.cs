@@ -19,6 +19,6 @@ foreach (var student in studentsInfo)
     double avrGrade = student.Value.Sum() / student.Value.Count;
     if (avrGrade>=4.50)
     {
-        Console.WriteLine($"{student.Key} –> {avrGrade:f2}");
+        Console.WriteLine($"{student.Key} -> {avrGrade:f2}");
     } 
 }
