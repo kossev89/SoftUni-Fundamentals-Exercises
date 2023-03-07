@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. SoftUni Parking", "04. 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Courses", "05. Courses\05. Courses.csproj", "{903334F5-FF74-4EB9-98DB-FA7644461A13}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "06. Student Academy", "06. Student Academy\06. Student Academy.csproj", "{A97DB87D-8B2A-40CC-82D5-F3B64AEEEB3C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{903334F5-FF74-4EB9-98DB-FA7644461A13}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{903334F5-FF74-4EB9-98DB-FA7644461A13}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{903334F5-FF74-4EB9-98DB-FA7644461A13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A97DB87D-8B2A-40CC-82D5-F3B64AEEEB3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A97DB87D-8B2A-40CC-82D5-F3B64AEEEB3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A97DB87D-8B2A-40CC-82D5-F3B64AEEEB3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A97DB87D-8B2A-40CC-82D5-F3B64AEEEB3C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

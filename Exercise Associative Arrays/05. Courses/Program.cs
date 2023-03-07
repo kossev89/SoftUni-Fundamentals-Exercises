@@ -4,7 +4,7 @@ string inputData = Console.ReadLine();
 while (inputData != "end")
 {
     string[] inputTokens = inputData
-        .Split(':', StringSplitOptions.RemoveEmptyEntries);
+        .Split(" : ", StringSplitOptions.RemoveEmptyEntries);
     string courseName = inputTokens[0];
     string studentName = inputTokens[1];
 
