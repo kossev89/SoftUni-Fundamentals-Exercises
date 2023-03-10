@@ -9,5 +9,3 @@ while (result.Contains(firstString) == true)
 }
 
 Console.WriteLine(result);
-
-

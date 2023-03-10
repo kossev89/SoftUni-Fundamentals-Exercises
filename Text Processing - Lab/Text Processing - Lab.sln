@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Repeat Strings", "02. R
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Substring", "03. Substring\03. Substring.csproj", "{A03B9C20-4F8A-4775-B0F0-CF142C3CCD28}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Text Filter", "04. Text Filter\04. Text Filter.csproj", "{A29665BD-4BA5-4D49-A86B-1677B4F1D951}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A03B9C20-4F8A-4775-B0F0-CF142C3CCD28}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A03B9C20-4F8A-4775-B0F0-CF142C3CCD28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A03B9C20-4F8A-4775-B0F0-CF142C3CCD28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A29665BD-4BA5-4D49-A86B-1677B4F1D951}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A29665BD-4BA5-4D49-A86B-1677B4F1D951}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A29665BD-4BA5-4D49-A86B-1677B4F1D951}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A29665BD-4BA5-4D49-A86B-1677B4F1D951}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
