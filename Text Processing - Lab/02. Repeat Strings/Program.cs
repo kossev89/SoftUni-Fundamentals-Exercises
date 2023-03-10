@@ -10,4 +10,3 @@ foreach (var word in input)
     }
 }
 Console.WriteLine(result);
-
