@@ -18,9 +18,6 @@ foreach (var user in validUserNames)
 Console.WriteLine(output);
 
 
-
-
-
 bool IsValid(string userName)
 {
     bool isValid = true;
