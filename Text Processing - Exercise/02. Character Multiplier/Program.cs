@@ -1,11 +1,6 @@
-﻿
-//Peter George
-
-
-string[] input = Console.ReadLine().Split();
+﻿string[] input = Console.ReadLine().Split();
 int totalSum = MultiplyChars(input[0], input[1]);
 Console.WriteLine(totalSum);
-
 
 static int MultiplyChars(string firstInput, string secondInput)
 {
