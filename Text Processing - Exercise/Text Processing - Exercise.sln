@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Character Multiplier", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Extract File", "03. Extract File\03. Extract File.csproj", "{CE4C2958-655B-42A9-96F3-9DCBD99CC086}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Caesar Cipher", "04. Caesar Cipher\04. Caesar Cipher.csproj", "{14446E99-2B8E-4996-A44C-2CA987823767}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "04. Caesar Cipher", "04. Caesar Cipher\04. Caesar Cipher.csproj", "{14446E99-2B8E-4996-A44C-2CA987823767}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "05. Multiply Big Number", "05. Multiply Big Number\05. Multiply Big Number.csproj", "{601C7D27-D8F3-4326-9EF0-94CA0C65AA88}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{14446E99-2B8E-4996-A44C-2CA987823767}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14446E99-2B8E-4996-A44C-2CA987823767}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14446E99-2B8E-4996-A44C-2CA987823767}.Release|Any CPU.Build.0 = Release|Any CPU
+		{601C7D27-D8F3-4326-9EF0-94CA0C65AA88}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{601C7D27-D8F3-4326-9EF0-94CA0C65AA88}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{601C7D27-D8F3-4326-9EF0-94CA0C65AA88}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{601C7D27-D8F3-4326-9EF0-94CA0C65AA88}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
