@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-string[] input = Console.ReadLine().Split(Convert.ToChar(92));
+string[] input = Console.ReadLine().Split('\\');
 string fileNameExtension = input[input.Length - 1];
 int separatorIndex = fileNameExtension.LastIndexOf('.');
 string fileName = fileNameExtension.Substring(0, separatorIndex);

@@ -5,9 +5,11 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "01. Valid Usernames", "01. Valid Usernames\01. Valid Usernames.csproj", "{9944DE54-1856-4E12-9C88-7C788EC7B772}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Character Multiplier", "02. Character Multiplier\02. Character Multiplier.csproj", "{EAE4A5A0-CA72-4773-B935-9967000F2A8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Character Multiplier", "02. Character Multiplier\02. Character Multiplier.csproj", "{EAE4A5A0-CA72-4773-B935-9967000F2A8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Extract File", "03. Extract File\03. Extract File.csproj", "{CE4C2958-655B-42A9-96F3-9DCBD99CC086}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Extract File", "03. Extract File\03. Extract File.csproj", "{CE4C2958-655B-42A9-96F3-9DCBD99CC086}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04. Caesar Cipher", "04. Caesar Cipher\04. Caesar Cipher.csproj", "{14446E99-2B8E-4996-A44C-2CA987823767}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{CE4C2958-655B-42A9-96F3-9DCBD99CC086}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE4C2958-655B-42A9-96F3-9DCBD99CC086}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE4C2958-655B-42A9-96F3-9DCBD99CC086}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14446E99-2B8E-4996-A44C-2CA987823767}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14446E99-2B8E-4996-A44C-2CA987823767}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14446E99-2B8E-4996-A44C-2CA987823767}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14446E99-2B8E-4996-A44C-2CA987823767}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
