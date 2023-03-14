@@ -1,5 +1,5 @@
 ﻿string input = Console.ReadLine();
-List<string> output = new List<string>(); // aaaaabbbbbcdddeeeedssaa  => abcdedsa
+List<string> output = new List<string>();
 
 for (int i = 1; i < input.Length; i++)
 {
