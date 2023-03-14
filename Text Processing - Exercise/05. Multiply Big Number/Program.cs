@@ -2,8 +2,8 @@
 
 string number = Console.ReadLine();
 string multiplier = Console.ReadLine();
-string output = String.Empty;
 int remainder = 0;
+StringBuilder output = new StringBuilder();
 
 if (multiplier == "0")
 {
@@ -14,54 +14,46 @@ if (multiplier == "0")
 for (int i = number.Length - 1; i >= 0; i--)
 {
     double itemToInt = Char.GetNumericValue(number[i]);
-    int grossResult = (int)itemToInt * int.Parse(multiplier) + remainder;
+    int product = (int)itemToInt * int.Parse(multiplier) + remainder;
     remainder = 0;
-    int result = 0;
+    int result;
 
     if (i == number.Length - 1)
     {
-        if (grossResult >= 10)
+        if (product >= 10)
         {
-            char[] chars = grossResult.ToString().ToCharArray();
-            remainder = int.Parse(chars[0].ToString());
-            result = int.Parse(chars[1].ToString());
-            output += result;
+            char[] productArray = product.ToString().ToCharArray();
+            remainder = int.Parse(productArray[0].ToString());
+            result = int.Parse(productArray[1].ToString());
+            output.Insert(0, result);
             continue;
         }
         else
         {
-            result = grossResult;
-            output += result;
+            result = product;
+            output.Insert(0, result);
             continue;
         }
     }
     else
     {
-        if (grossResult >= 10)
+        if (product >= 10)
         {
-            char[] chars = grossResult.ToString().ToCharArray();
+            char[] chars = product.ToString().ToCharArray();
             remainder = int.Parse(chars[0].ToString());
             result = int.Parse(chars[1].ToString());
         }
         else
         {
-            result = grossResult;
+            result = product;
         }
-        output += result;
+        output.Insert(0, result);
     }
 }
 
 if (remainder > 0)
 {
-    output += remainder;
+    output.Insert(0, remainder);
 }
 
-char[] reversedOutput = output.Reverse().ToArray();
-StringBuilder sb = new StringBuilder();
-
-foreach (var item in reversedOutput)
-{
-    sb.Append(item);
-}
-
-Console.WriteLine(sb);
+Console.WriteLine(output);
