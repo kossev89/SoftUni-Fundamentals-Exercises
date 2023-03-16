@@ -3,21 +3,11 @@ double totalSum = 0;
 
 foreach (var item in input)
 {
-    string numberToString = string.Empty;
+    char firstOperation = item[0];
+    char secondOperation = item[item.Length - 1];
+    double number = double.Parse(item.Substring(1, item.Length - 2));
     double currentSum = 0;
-    char[] argArray = item.ToCharArray();
-    char firstOperation = argArray[0];
-    char secondOperation = argArray[argArray.Length - 1];
 
-    foreach (var c in argArray)
-    {
-        if (Char.IsDigit(c))
-        {
-            numberToString += c;
-        }
-    }
-
-    double number = double.Parse(numberToString);
     if (Char.IsUpper(firstOperation))
     {
         currentSum += number / (firstOperation - 64);
