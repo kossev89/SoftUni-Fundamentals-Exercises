@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Match Full Name", "01. Match Full Name\01. Match Full Name.csproj", "{4CEBF045-99D1-4EF4-BF70-6CC25B1AAF46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Match Phone Number", "02. Match Phone Number\02. Match Phone Number.csproj", "{848D53A8-95D2-47A4-B362-A85D53D5B38E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{4CEBF045-99D1-4EF4-BF70-6CC25B1AAF46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4CEBF045-99D1-4EF4-BF70-6CC25B1AAF46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4CEBF045-99D1-4EF4-BF70-6CC25B1AAF46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{848D53A8-95D2-47A4-B362-A85D53D5B38E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{848D53A8-95D2-47A4-B362-A85D53D5B38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{848D53A8-95D2-47A4-B362-A85D53D5B38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{848D53A8-95D2-47A4-B362-A85D53D5B38E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
