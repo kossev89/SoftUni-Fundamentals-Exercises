@@ -20,9 +20,6 @@ foreach (Match item in matches)
     decimal price = decimal.Parse(item.Groups["price"].Value);
     int quantity = int.Parse(item.Groups["quantity"].Value);
     totalSum += price * quantity;
-    if (quantity > 0 && price > 0)
-    {
-        Console.WriteLine($"{furnitureName}");
-    }
+    Console.WriteLine($"{furnitureName}");
 }
 Console.Write($"Total money spend: {totalSum:f2}");
