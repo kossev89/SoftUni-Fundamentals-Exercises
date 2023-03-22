@@ -36,7 +36,7 @@ while (input != "end of race")
     }
     input = Console.ReadLine();
 }
-var outputResult =result.OrderByDescending(x => x.Value);
+var outputResult = result.OrderByDescending(x => x.Value);
 List<string> winners = new List<string>();
 foreach (var item in outputResult)
 {
