@@ -1,9 +1,7 @@
 ﻿using System.Text;
 using System.Text.RegularExpressions;
 
-
 Regex regex = new Regex(@"^[^\%\|\$\.]*?\%(?<customerName>[A-z][a-z]+)\%[^\%\|\$\.]*?\<(?<product>\w+)\>[^\%\|\$\.]*?\|(?<count>\d+)\|[^\%\|\$\.]*?(?<price>\d+(\.\d+)?)\$[^\%\|\$\.]*?$");
-
 decimal totalIncome = 0;
 StringBuilder output = new StringBuilder();
 string input = Console.ReadLine();
@@ -25,6 +23,7 @@ while (input != "end of shift")
     }
     input = Console.ReadLine();
 }
+
 Console.Write(output);
-Console.WriteLine($"Total income: {totalIncome:f2}.");
+Console.WriteLine($"Total income: {totalIncome:f2}");
 
