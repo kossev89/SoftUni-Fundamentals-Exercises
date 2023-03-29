@@ -9,9 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Mirror Words", "02. Mir
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. The Pianist", "03. The Pianist\03. The Pianist.csproj", "{E4ABB54F-4D5B-4017-8BBC-08781D459356}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02. Ad Astra", "02. Ad Astra\02. Ad Astra.csproj", "{DA68755A-8E74-46AE-89F7-23D5C59D0D89}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "02. Ad Astra", "02. Ad Astra\02. Ad Astra.csproj", "{DA68755A-8E74-46AE-89F7-23D5C59D0D89}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03. Plant Discovery", "03. Plant Discovery\03. Plant Discovery.csproj", "{38FE8139-72B3-4079-83EB-D648C83A7C88}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "03. Plant Discovery", "03. Plant Discovery\03. Plant Discovery.csproj", "{38FE8139-72B3-4079-83EB-D648C83A7C88}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01. Secret Chat", "01. Secret Chat\01. Secret Chat.csproj", "{E74F3C88-1DBE-4870-ACD4-79E32906C5C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{38FE8139-72B3-4079-83EB-D648C83A7C88}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{38FE8139-72B3-4079-83EB-D648C83A7C88}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{38FE8139-72B3-4079-83EB-D648C83A7C88}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E74F3C88-1DBE-4870-ACD4-79E32906C5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E74F3C88-1DBE-4870-ACD4-79E32906C5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E74F3C88-1DBE-4870-ACD4-79E32906C5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E74F3C88-1DBE-4870-ACD4-79E32906C5C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
