@@ -17,7 +17,7 @@ while (command != "Reveal")
         string substring = commandArg[1];
         if (output.Contains(substring))
         {
-            output = output.Remove(output.IndexOf(substring),substring.Length);
+            output = output.Remove(output.IndexOf(substring), substring.Length);
             char[] substringTocharArray = substring.ToCharArray();
             Array.Reverse(substringTocharArray);
             string reversed = new string(substringTocharArray);
@@ -26,7 +26,6 @@ while (command != "Reveal")
         else
         {
             Console.WriteLine("error");
-            Console.WriteLine(output);
             command = Console.ReadLine();
             continue;
         }
